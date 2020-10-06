@@ -10,7 +10,7 @@ class Testscript < Formula
 
   def install
 	bin.install "testscript"
-	bin.install firefox
+	brew cask install firefox
   end
 
 end
