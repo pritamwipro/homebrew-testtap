@@ -10,6 +10,7 @@ class Testscript < Formula
 
   def install
 	bin.install "testscript"
+	bin.install "git"
   end
 
 end
