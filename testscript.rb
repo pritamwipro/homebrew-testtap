@@ -10,7 +10,7 @@ class Testscript < Formula
 
   def install
 	bin.install "testscript"
-	bin.install "firefox"
+	bin.install firefox
   end
 
 end
